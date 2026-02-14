@@ -28,7 +28,8 @@ public class HousingAccountingService
         paymentService.AcceptPayment(department, payment);
 
         int debtors = debtAnalyzer.GetDebtorsCount(department);
-
-        return reportGenerator.GenerateReport(department, debtors);
+        
+        string report = reportGenerator.GenerateReport(department, debtors);
+        return PDFBuilder.BuildPDFReport(report);
     }
 }
