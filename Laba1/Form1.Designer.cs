@@ -133,7 +133,7 @@ partial class Form1
         label_laboratory_work.Name = "label_laboratory_work";
         label_laboratory_work.Size = new Size(330, 59);
         label_laboratory_work.TabIndex = 1;
-        label_laboratory_work.Text = "Лабораторная работа 3";
+        label_laboratory_work.Text = "Лабораторная работа 4";
         label_laboratory_work.TextAlign = ContentAlignment.MiddleCenter;
         // 
         // label_variant
